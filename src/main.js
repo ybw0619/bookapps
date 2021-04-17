@@ -4,10 +4,7 @@ import router from './router'
 import store from './store'
 import './index.css'
 import { makeServer } from "./server"
-import 'overlayscrollbars/css/OverlayScrollbars.css'
-import { OverlayScrollbarsPlugin} from 'overlayscrollbars-vue'
  
-Vue.use(OverlayScrollbarsPlugin)
 
 Vue.config.productionTip = false
 
